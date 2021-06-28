@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Harris.net.Models
 {
+    //BusinessContact Model specifying all fields for Business Contacts table in the database.
     public class BusinessContact
     {
         public int BusinessContactID { get; set; }

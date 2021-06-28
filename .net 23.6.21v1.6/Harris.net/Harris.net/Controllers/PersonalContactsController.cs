@@ -10,6 +10,7 @@ using Harris.net.Models;
 
 namespace Harris.net.Controllers
 {
+    //PersonalContactsController scaffolded item using HarrisDbContext Data and PersonalContact Model.
     public class PersonalContactsController : Controller
     {
         private readonly HarrisDbContext _context;

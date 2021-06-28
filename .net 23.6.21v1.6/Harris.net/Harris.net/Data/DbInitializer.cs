@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Harris.net.Data
 {
+    //Database initialiser.
     public class DbInitializer
     {
         public static void Initialize(HarrisDbContext context)

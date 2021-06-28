@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Harris.net.Data
 {
+    //HarrisDbContext for database initialisation using BusinessContacts and PersonalContacts classes.
     public class HarrisDbContext : DbContext
     {
         public HarrisDbContext(DbContextOptions<HarrisDbContext> options) : base(options)

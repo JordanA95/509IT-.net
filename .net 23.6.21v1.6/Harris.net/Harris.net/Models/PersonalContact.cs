@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Harris.net.Models
 {
+    //PersonalContact Model specifying all fields for Personal Contacts table in the database.
     public class PersonalContact
     {
         public int PersonalContactID { get; set; }
